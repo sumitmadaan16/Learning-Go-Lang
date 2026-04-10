@@ -6,4 +6,7 @@ func main() {
 	VariableDemo()
 	ScopeDemo()
 	PointerDemo()
+	ErrorHandlingDemo()
+	Panicdemo()
+	//StackUnwindingDemo()
 }
