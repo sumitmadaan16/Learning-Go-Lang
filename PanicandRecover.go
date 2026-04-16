@@ -27,7 +27,7 @@ func Panicdemo() {
 	fmt.Println(divide(4, 0)) // Panicked Here therefore Not preceding ahead
 	//prints zero cuz the default value for int, since the return expression was interrupted by panic).
 
-	fmt.Println("program continues running") // execution coninues here cuz the panic was handled inside the divide func itself,
+	fmt.Println("program continues running") // execution continues here cuz the panic was handled inside the divide func itself,
 	// and the execution continues in the caller after the function call.
 	fmt.Println(divide(17, 2))
 }

@@ -9,4 +9,6 @@ func main() {
 	ErrorHandlingDemo()
 	Panicdemo()
 	//StackUnwindingDemo()
+	CustomErrorDemo()
+	TypeAssertionsDemo()
 }
