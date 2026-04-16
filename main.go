@@ -11,4 +11,8 @@ func main() {
 	//StackUnwindingDemo()
 	CustomErrorDemo()
 	TypeAssertionsDemo()
+	GoRoutineDemo()
+	WaitGroupDemo()
+	BasicMutexDemo()
+	ReadWriteMutexDemo()
 }
