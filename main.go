@@ -15,4 +15,7 @@ func main() {
 	WaitGroupDemo()
 	BasicMutexDemo()
 	ReadWriteMutexDemo()
+	UnbufferedChannelDemo()
+	BufferedChannelDemo()
+	ChannelDirectionDemo()
 }
