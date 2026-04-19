@@ -18,4 +18,7 @@ func main() {
 	UnbufferedChannelDemo()
 	BufferedChannelDemo()
 	ChannelDirectionDemo()
+	// final application using worker pool of channels and go routines
+	ConcurrencyDemo()
+	TimeTickerDemo()
 }
