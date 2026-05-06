@@ -43,4 +43,4 @@ func BenchmarkGetById(b *testing.B) {
 			return
 		} // always drain and close or you'll leak connections
 	}
-}``
+}
